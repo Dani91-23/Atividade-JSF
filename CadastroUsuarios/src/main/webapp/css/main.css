@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.tabela-nomes {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabela-nomes td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+.tabela-nomes tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.meu-botao {
+    background-color: #007bff; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    border: none; /* Remover borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor do mouse */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.meu-botao:hover {
+    background-color: #0056b3; /* Mudar cor de fundo quando passar o mouse */
+}

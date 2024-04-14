@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"> 
+
+<h:head>
+    <title>Formulário JSF</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</h:head>
+<h:body>
+    <h:form>
+        <h:panelGrid columns="2">
+            <h:outputLabel for="nome">Nome:</h:outputLabel>
+            <h:inputText id="nome" styleClass="meu-input-text" />
+            
+            <h:outputLabel for="email">Email:</h:outputLabel>
+            <h:inputText id="email" styleClass="meu-input-text" />
+            
+            <h:outputLabel for="telefone">Telefone:</h:outputLabel>
+            <h:inputText id="telefone" styleClass="meu-input-text" />
+           
+      
+        </h:panelGrid>
+        
+        <h:commandButton value="Enviar"  onclick="exibirMensagem()" styleClass="meu-botao" />
+         <p id="mensagem"></p>
+    </h:form>
+    
+    
+    <script>
+        function exibirMensagem() {
+            document.getElementById("mensagem").innerText = "Cadastro realizado com sucesso!";
+        }
+    </script>
+</h:body>
+</html>

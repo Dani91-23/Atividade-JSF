@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+ .meu-input-text {
+    /* Estilos para todos os inputs text */
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+
+.meu-botao {
+    /* Estilos para o botão */
+    background-color: #007bff; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    border: none; /* Remova a borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor do mouse */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+
+.meu-botao:hover {
+    background-color: #0056b3; /* Mudar a cor de fundo quando passar o mouse */
+}
